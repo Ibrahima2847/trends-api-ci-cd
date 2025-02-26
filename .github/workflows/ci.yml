@@ -31,7 +31,7 @@ jobs:
 
     - name: Exécuter les tests unitaires
       run: |
-        Òexport PYTHONPATH=.
+        export PYTHONPATH=.
         pytest
         
 
